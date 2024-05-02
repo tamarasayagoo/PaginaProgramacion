@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body, h1, p, ul{
+    font-family: "Poppins",sans-serif;
+}
+
+header{
+    background-color: #65371f;
+    color: #f3e3d3;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin-left: 90px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f3e3f3;
+    font-weight: bold;
+}
+
+.logo{
+    max-height: 53px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.logo img {
+    height: 100%;  
+    width: 10px;
+    margin-left: 20px;
+}
+
+nav ul li a:hover{
+    color: #c9ad95;
+}
+
+main{
+    text-align: center;
+    padding: 30px;
+}
+
+.hero{
+    background-image: url("img/macarons.jpg");
+    background-size: cover;
+    color: #ffff;
+    padding: 100px;
+}
+
+.hero h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c9ad95;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.cta-button:hover{
+    background-color: #744c24;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.article{
+    flex-basis: calc(50% - 20px);
+    background-color: #d2ab80;
+    border: 1px solid#ccc;
+    padding: 20px;
+}
+
+.article h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.article a{
+    text-decoration: none;
+    color: #f3e3f3;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info,
+.contact-form{
+    flex: 1;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contact-form h1{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.map{
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-info h1,
+.contact-form h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    color: #744c24;
+    margin: auto;
+}
+
+
+.contact-info ul{
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+    color: #65371f;
+}
+
+.contact-info ul li{
+    margin-bottom: 10px;
+}
+.contact-info h2 a{
+    color: #744c24;
+}
+
+.contact-form form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+input, textarea{
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #E5E0D8;
+    border: 2px solid#ffff;
+    color: #282119;
+    outline: none;
+}
+
+.contact-form button {
+    background-color:#d2ab80;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover { 
+    background-color: #744c24;;
+}
